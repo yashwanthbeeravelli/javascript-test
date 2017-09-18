@@ -1,3 +1,13 @@
+# IMPORTANT
+
+NO PLAGIARISM WILL BE TOLERATED. We run every test through our plagiarism tool and you will be removed from the list of potential candidates if we find that you have copy pasted code from the web.
+
+We believe that most people are honest, professional individuals, and we wish to provide candidates a familiar, and stress-free environment to do the test in.
+
+We also believe that you should have access to the internet for this test, as in real life, you will sometimes have no choice but to refer to the internet in order to solve a complex problem.
+
+Feel free to research ways to solve the two questions in this test, but try to be different and innovative when creating a solution. DO NOT PLARIARIZE.
+
 # Instructions
 
 1. Fork this repo to your work station.
