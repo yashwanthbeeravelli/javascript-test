@@ -6,7 +6,7 @@ We believe that most people are honest, professional individuals, and we wish to
 
 We also believe that you should have access to the internet for this test, as in real life, you will sometimes have no choice but to refer to the internet in order to solve a complex problem.
 
-Feel free to research ways to solve the two questions in this test, but try to be different and innovative when creating a solution. DO NOT PLARIARIZE.
+Feel free to research ways to solve the two questions in this test, but try to be different and innovative when creating a solution. DO NOT PLAGIARIZE.
 
 # Instructions
 
