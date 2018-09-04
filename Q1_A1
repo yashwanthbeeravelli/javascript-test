@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Quick Series | Find the maximum permutations</h2>
+
+    <button onclick="myFunction()">Click here/Cliquez ici</button>
+
+    <p id="demo"></p>
+
+    <script>
+
+        function myFunction() {
+            try {
+                //var arr = [['q', 'u'], 'u', 'i', ['c', 'k', 's'], 'e' , 'r'];
+                //var arr = arguments;
+            
+                if (typeof arr == 'undefined' || !(typeof arr == 'object')) {
+                    document.getElementById("demo").innerHTML = "Invalid arguments passed!";
+                }
+                else if (arr.length === 0) {
+                    document.getElementById("demo").innerHTML = "Looks like nothing is passed to permutate!";
+                } 
+                else {
+                    document.getElementById("demo").innerHTML = permuAndCombi(arr);
+                }
+                
+                function permuAndCombi(arr1) {
+                    if (arr1.length == 1) {
+                        return arr[0];
+                    } else {
+                        var s = [];
+                        var a = permuAndCombi(arr1.slice(1));
+                        for (var i = 0; i < a.length; i++) {
+                            for (var j = 0; j < arr1[0].length; j++) {
+                                s.push(arr1[0][j] + a[i]);
+                            }
+                        }
+                        return s;
+                    }
+
+                }
+            }
+            catch (err) {
+                document.getElementById("demo").innerHTML = err.message;
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
