@@ -1,0 +1,35 @@
+function myFunction() {
+            try {
+                var arr = arguments;
+            
+                if (typeof arr == 'undefined' || !(typeof arr == 'object')) {
+                    console.log("Invalid arguments passed!");
+                }
+                else if (arr.length === 0) {
+                    console.log("Looks like nothing is passed to permutate!");
+                } 
+                else {
+                    console.log(permuAndCombi(arr));
+                }
+                
+                function permuAndCombi(arr1) {
+                    if (arr1.length == 1) {
+                        return arr[0];
+                    } else {
+                        var s = [];
+                        var a = permuAndCombi(arr1.slice(1));
+                        for (var i = 0; i < a.length; i++) {
+                            for (var j = 0; j < arr1[0].length; j++) {
+                                s.push(arr1[0][j] + a[i]);
+                            }
+                        }
+                        return s;
+                    }
+
+                }
+            }
+            catch (err) {
+                console.log(err.message);
+            }
+
+        }
